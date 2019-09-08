@@ -38,7 +38,7 @@ end
 # Define your play method below
 
 def play(board)
-  spaces_left = board.include? " " || board.include? ""
+  spaces_left = board.include?(" ") || board.include?("")
   while spaces_left
     turn(board)
   end
